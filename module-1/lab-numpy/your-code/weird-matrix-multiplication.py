@@ -37,11 +37,7 @@ D = np.array([[1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1]])
 # # print(dimension_AB, AB.shape)
 # # print(C.shape, D.shape)
 # # print(dimension_CD, CD.shape)
-# result = np.empty((dimension_AB[0],dimension_AB[1]))
-# for i,b in enumerate(B):
-#     for j,a in enumerate(A):
-#         result[i,j] = a * b
-# print(result)
+
 
 def weird_matrix_mult(a, b):
     dimension_AB = np.array(a.shape) * np.array(b.shape)
